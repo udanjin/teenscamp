@@ -11,7 +11,7 @@ type Props = {
 const Terms = ({ setSelectedPage }: Props) => {
   return (
     <motion.div
-      className="mx-auto  items-center justify-center "
+      className="mx-auto lg:w-5/6 items-center justify-center "
       onViewportEnter={() => setSelectedPage(SelectedPage.Terms)}
     >
       <motion.div
@@ -26,11 +26,11 @@ const Terms = ({ setSelectedPage }: Props) => {
         }}
       >
         <section id="terms">
-          <div className="">
-            <h1 className="glitch font-head flex justify-center items-center text-2xl lg:text-6xl pt-20 pb-10 text-white">
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="glitch font-head  text-2xl lg:text-6xl pt-20 pb-10 text-white">
               RULES
             </h1>
-            <div className="flex justify-center ">
+            <div className=" ">
               <div className=" w-[50vh]  lg:w-[45rem] ">
                 <h1 className="font-body text-2xl text-white text-center">
                   DO's
