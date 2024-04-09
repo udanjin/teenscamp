@@ -1,4 +1,4 @@
-
+import React from "react";
 import "../test.css";
 import "../glitch.css";
 import { SelectedPage } from "../shared/types";
@@ -11,7 +11,7 @@ type Props = {
 const Terms = ({ setSelectedPage }: Props) => {
   return (
     <motion.div
-      className="mx-auto lg:w-5/6 items-center justify-center "
+      className="mx-auto  items-center justify-center "
       onViewportEnter={() => setSelectedPage(SelectedPage.Terms)}
     >
       <motion.div
@@ -25,12 +25,12 @@ const Terms = ({ setSelectedPage }: Props) => {
           visible: { opacity: 1, y: 0 },
         }}
       >
-        <section id="terms">
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="glitch font-head  text-2xl lg:text-6xl pt-20 pb-10 text-white">
+        {/* <section id="terms">
+          <div className="">
+            <h1 className="glitch font-head flex justify-center items-center text-2xl lg:text-6xl pt-20 pb-10 text-white">
               RULES
             </h1>
-            <div className=" ">
+            <div className="flex justify-center ">
               <div className=" w-[50vh]  lg:w-[45rem] ">
                 <h1 className="font-body text-2xl text-white text-center">
                   DO's
@@ -103,6 +103,40 @@ const Terms = ({ setSelectedPage }: Props) => {
 
                 </ul>
               </div>
+            </div>
+          </div>
+        </section> */}
+
+        <section id="terms">
+          <div className="glitch font-body text-2xl lg:text-6xl flex justify-center items-center twxt-white pb-4">
+            RULES
+          </div>
+          <div className="grid grid-rows-2 lg:grid-cols-2 lg:pl-10  lg:pt-8 ">
+            <div className="p-6 text-[14px] lg:text-3xl lg:border-r-4 border-b-2 mx-10 ">
+              <p className="font-body pb-4 text-center font-bold ">DO's</p>
+              <ol className="list-decimal font-man px-12 lg:px-8">
+                <li>
+                  Now this is a story all about how, my life got flipped-turned
+                  upside down
+                </li>
+                <li>
+                  Now this is a story all about how, my life got flipped-turned
+                  upside down
+                </li>
+              </ol>
+            </div>  
+            <div className="p-6 text-[14px] lg:text-3xl mx-10">
+              <p className="font-body pb-4 text-center font-bold">DONT's</p>
+              <ol className="list-decimal font-man px-12 lg:px-8">
+                <li>
+                  Now this is a story all about how, my life got flipped-turned
+                  upside down
+                </li>
+                <li>
+                  Now this is a story all about how, my life got flipped-turned
+                  upside down
+                </li>
+              </ol>
             </div>
           </div>
         </section>

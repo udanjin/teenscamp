@@ -42,15 +42,15 @@ const Video = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="grid justify-items-center text-white drop-shadow-2xl	">
-              <HText>TEENS CAMP 2K24.</HText>
-              <p className=" text-white font-body text-center  mt-8 md:text-lg mb-6 text-xs p-2">
+              <HText>TEENS CAMP 2024.</HText>
+              <p className=" text-white font-man text-center  mt-4 md:text-lg mb-6 text-xs p-2">
                 Reprehenderit veniam ipsum sint id incididunt cillum laborum
                 aute. Laborum ut amet magna minim est pariatur officia ipsum
                 enim. Fugiat ullamco excepteur laborum nulla reprehenderit.
                 Proident commodo proident non magna cillum elit esse officia
                 commodo labore. Nisi dolore nostrud
               </p>
-              <h1 className="font-head text-white text-lg md:text-6xl md:mt-16 md:mb-10 font-bold drop-shadow-2xl ">
+              <h1 className="font-body text-white text-lg md:text-6xl md:mt-16 md:mb-10 font-bold drop-shadow-2xl ">
                 Video
               </h1>
             </div>

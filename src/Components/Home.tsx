@@ -40,10 +40,10 @@ const Home = ({ setSelectedPage }: Props) => {
           <span className="font-head" aria-hidden="true"> TEENS CAMP</span>      
       </h1> */}
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <span className="glitch flex justify-center text-white font-head text-[20px] pt-32 lg:text-[5rem] drop-shadow-2xl">
+            <span className="glitch flex justify-center text-white font-head text-[20px] pt-32 lg:text-[5rem] drop-shadow-2xl tracking-widest">
               DIVERGEN-Z
             </span>
-            <span className="glitch flex justify-center text-white font-body text-[12px] lg:text-[2rem] mt-2">
+            <span className="glitch flex justify-center text-white font-body text-[12px] lg:text-[2rem]  tracking-widest">
               GEN CHANGER
             </span>
           </div>

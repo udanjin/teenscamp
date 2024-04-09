@@ -48,7 +48,7 @@ const Faction = ({ setSelectedPage }: Props) => {
       src: erudites,
       title: "Erudite",
       description:
-        "Faksi yang berisikan orang-orang dengan sifat Jenius/Intelektual yang unggul. Para Erudite mengejar ilmu pengetahuan dan percaya bahwa ilmu pengetahuan merupakan hal paling penting dalam kehidupan manusia, intinya mirip kutu buku dan jeniuz.",
+        "Faksi yang berisikan orang-orang dengan sifat Jenius/Intelektual yang unggul. Para Erudite mengejar ilmu pengetahuan dan percaya bahwa ilmu pengetahuan merupakan hal paling penting dalam kehidupan manusia.",
     },
   ];
 
@@ -76,11 +76,11 @@ const Faction = ({ setSelectedPage }: Props) => {
               <div className="min-h-[10rem] md:h-full">
                 <img src={faction.src} alt="" className="relative " />
                 <div className="absolute top-0 left-0 p-4 lg:mt-10 lg:ml-10 text-white">
-                  <h1 className="font-head text-lg md:text-6xl font-bold ">
+                  <h1 className="font-body text-lg md:text-6xl font-bold ">
                     {faction.title}
                   </h1>
                   <div className=" flex items-center justify-center">
-                    <p className="text-white text-center font-sub mt-8 text-[12px] lg:text-3xl lg:pt-72 tracking-widest">
+                    <p className="text-white text-center font-man mt-8 text-[12px] lg:text-3xl lg:pt-72 tracking-widest">
                       {faction.description}
                     </p>
                   </div>

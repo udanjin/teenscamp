@@ -16,7 +16,8 @@ export default {
       fontFamily: {
         body: ["Aboro"],
         head:["Polyface"],
-        sub:["Alice"]
+        sub:["Alice"],
+        man:["Manrope"]
       },
       gradientColorStops: (theme) => ({
         start: "#D5D5D5",
