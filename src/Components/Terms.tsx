@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../test.css";
 import "../glitch.css";
 import { SelectedPage } from "../shared/types";
